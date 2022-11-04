@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remav - yes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="./tilt.js"></script>
+</head>
+<body>
+    <header>
+        <h2>
+            kelvin
+        </h2>
+        <ul>
+            <li>
+                <a href="#">home</a>
+            </li>
+            <li>
+                <a href="#">about</a>
+            </li>
+            <li>
+                <a href="#">contact</a>
+            </li>
+            <li>
+                <a href="#">portfolio</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="content">
+        <div class="txt">
+            <h2>
+                Hi, my name is <i>k</i>elvin
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aliquam quas placeat ad numquam et delectus dolores, iusto minima esse quia nisi libero itaque odio possimus sint, ducimus, ullam deserunt?
+            </p>
+        </div>
+
+            <div class="img">
+                <img src="./img-blob/1.svg">
+            </div>
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li>
+                <a href="#">twitter</a>
+            </li>
+            <li>
+                <a href="#">instagram</a>
+            </li>
+            <li>
+                <a href="#">reddit</a>
+            </li>
+            <li>
+                <a href="#">pinterest</a>
+            </li>
+        </ul>
+    </div>
+    
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".img"), {
+            max: 70,
+            speed: 400,
+            glare: false,
+            'max-glare': 0.4
+        });
+        
+        //It also supports NodeList
+        // VanillaTilt.init(document.querySelectorAll(".child"));
+    </script>
+</body>
+</html>
